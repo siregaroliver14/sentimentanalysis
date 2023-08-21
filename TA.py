@@ -21,8 +21,7 @@ st.title('Sentimen Analisis Twitter'
          ' Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM)')
 
 #Membaca dan menampilkan data
-df = pd.read_csv('/Users/Oliver/PycharmProjects/Tugas Akhir/venv/Clean_Data_3Class.csv',
-                 sep=';')
+df = pd.read_csv('Clean_Data_3Class.csv', sep=';')
 st.write('### Data Awal')
 st.dataframe(df)
 
