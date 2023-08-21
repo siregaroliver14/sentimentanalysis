@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import re
 import nltk
+nltk.download('punkt')
 import scipy
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
